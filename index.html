@@ -140,32 +140,38 @@
 
             <div class="form-group mt-3" id="we">
               <label for="">Work Experience</label>
-              <textarea
-                rows="3"
-                id="expfield"
-                class="form-control wefield"
-                placeholder="Enter your Work Experience"
-              ></textarea>
-
-              <!-- add new textarea by js -->
+              <div id="we-info">
+                <textarea
+                  rows="3"
+                  id="expfield"
+                  class="form-control wefield"
+                  placeholder="Enter your Work Experience"
+                ></textarea>
+              </div>
               <div class="container text-center mt-2" id="weAddButton">
                 <button onclick="addNewExp()" class="btn btn-warning btn-sm">
                   Add
                 </button>
               </div>
             </div>
-
+            
             <div class="form-group mt-3" id="edu">
               <label for="">Education</label>
-              <textarea
-                rows="3"
-                id="edufields"
-                class="form-control edufield"
-                placeholder="Enter your Education"
-              ></textarea>
+              <div id="edu-info">
+                <textarea
+                  rows="3"
+                  id="edufields"
+                  class="form-control edufield"
+                  placeholder="Enter your Education"
+                ></textarea>
+              </div>
 
               <div class="container text-center mt-2" id="EAddButton">
-                <button onclick="addNewEdu()" class="btn btn-warning btn-sm">
+                <button
+                  onclick="addNewEdu()"
+                  class="btn btn-warning btn-sm"
+                  id="edu-add"
+                >
                   Add
                 </button>
               </div>
